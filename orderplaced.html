@@ -85,7 +85,7 @@
             table_number: localStorage.getItem('tableNumber') || 'N/A'
         };
 
-        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+        emailjs.send('service_mhgvs8a', 'YOUR_TEMPLATE_ID', templateParams)
         .then(function(response) {
             console.log('Email sent successfully', response.status, response.text);
         }, function(error) {
